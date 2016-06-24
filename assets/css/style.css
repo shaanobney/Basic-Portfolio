@@ -1,9 +1,7 @@
-body {
-  background-image: url("/assets/images/cork-wallet.png");
-  background-position: 100% 100%;
-  background-repeat: repeat-x repeat-y;
-}
 
+body {
+    background: url("../assets/images/cork-wallet.png");
+}
 
 h1 { 
 	font-size: 32px; font-family: 'Georgia', Times, Times New Roman, serif;
