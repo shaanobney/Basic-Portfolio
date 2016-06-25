@@ -1,23 +1,30 @@
 
 html, body {
 	height: 100%;
-    background-image: url("cork-wallet.png");
+    background-image: url("old_wall.png");
 }
 
 h1 { 
-	font-size: 25px; font-family: 'Georgia', Times, Times New Roman, serif;
-color: white; 
+	font-size: 30px; font-family: 'Georgia', Times, Times New Roman, serif;
+color: #ffffff; 
 }
 
 h2 { 
-	font-size: 25px; font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px; font-family: 'Georgia', Times, Times New Roman, serif;
+color: #4aaaa5; 
+}
+
+h3 { 
+	font-size: 15px; font-family: 'Georgia', Times, Times New Roman, serif;
 color: #4aaaa5; 
 }
 
 hr {
+	height: 1px;
+	align: center;
 	margin-left: 20px;
-	margin-right: 10px;
-	border-width: 2px
+	margin-right: 20px;
+	color: #cccccc;
 }
 
 ul {
@@ -25,7 +32,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #white;
+    background-color: #ffffff;
+    margin-right: 150px;
 }
 
 li {
@@ -34,27 +42,32 @@ li {
 
 li a {
     display: block;
-    color: black;
     text-align: left;
     padding: 14px 16px;
+    color: #cccccc;
     text-decoration: none;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 p {
-	margin: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 20px;
+	line-height: 200%;
 }
 
 .container {
 	float: left;
 	width: 100%;
+	margin-top: 40px;
 }
 
 .page-title {
 font-weight: 100;
 background-color: #4aaaa5;
-padding: 14px 16px;
+padding: 5px 10px;
+border: 25px solid #4aaaa5;
 float: left;
+margin-left: 145px;
+margin-top: 0px;
 }
 
 #about-me {
@@ -62,11 +75,15 @@ width: 650px;
 height: 100%;
 text-align: left;
 font-weight: 100;
+color: #777777;
 font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 background-color: white;
 float: left;
-border: 1px solid gray;
-
+border-style: solid;
+border-width: 1px;
+margin-left: 155px;
+margin-bottom: 40px;
+border-color: #cccccc;
 }
 
 #connect {
@@ -75,7 +92,13 @@ height: 100px;
 background-color: white;
 text-align: center;
 float: right;
-border: 1px solid gray;
+border-style: solid;
+border-width: 1px;
+border-color: #cccccc;
+margin-bottom: 40px;
+margin-right: 155px;
+padding-top: 10px;
+padding-bottom: 60px;
 }
 
 #header {
@@ -88,6 +111,7 @@ border: 1px solid gray;
 #footer {
 	font-size: 0.75rem;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #cccccc;
 	text-align: center;
 	background-color: #666666;
   	padding: 10px;
