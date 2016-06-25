@@ -1,60 +1,97 @@
 
-body {
-    background: url("../assets/images/cork-wallet.png");
+html, body {
+	height: 100%;
+    background-image: url("cork-wallet.png");
 }
 
 h1 { 
-	font-size: 32px; font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px; font-family: 'Georgia', Times, Times New Roman, serif;
 color: white; 
 }
 
 h2 { 
-	font-size: 32px; font-family: 'Georgia', Times, Times New Roman, serif;
-color: black; 
-
+	font-size: 25px; font-family: 'Georgia', Times, Times New Roman, serif;
+color: #4aaaa5; 
 }
 
-nav {
-	background-color: #FFF;
+hr {
+	margin-left: 20px;
+	margin-right: 10px;
+	border-width: 2px
 }
 
-nav li {
-	display: inline;
-	margin: 0;
-	padding: 0 10px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #white;
 }
 
-nav ul {
-	display: inline;
+li {
+    float: right;
 }
 
-.about-me {
+li a {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 
-width: 650px; 
-height: 100%;
-border: 1px black;
-box-sizing: border-box;
-text-align: left;
-font-weight: 100;
-background-color: white;
-float: left;
+p {
+	margin: 10px 10px 10px 10px;
+}
 
+.container {
+	float: left;
+	width: 100%;
 }
 
 .page-title {
-text-align: left;
 font-weight: 100;
 background-color: #4aaaa5;
-padding: 10px 10px;
+padding: 14px 16px;
 float: left;
 }
 
-.main-header {
-	display: flex;
-	flex-wrap: wrap:
-	justify-content: right;
+#about-me {
+width: 650px; 
+height: 100%;
+text-align: left;
+font-weight: 100;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+background-color: white;
+float: left;
+border: 1px solid gray;
+
+}
+
+#connect {
+width: 270px;
+height: 100px;
+background-color: white;
+text-align: center;
+float: right;
+border: 1px solid gray;
+}
+
+#header {
+	background-color: #ffffff;
+	padding: 10px;
+	border-bottom-style: solid;
+	border-color: #cccccc;
 }
 
 #footer {
 	font-size: 0.75rem;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: center;
+	background-color: #666666;
+  	padding: 10px;
+  	clear: both;
+  	border-top-style: solid;
+  	border-color: #4aaaa5
 }
