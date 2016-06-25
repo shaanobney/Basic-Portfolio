@@ -1,21 +1,23 @@
 
 html, body {
+	padding: 0;
+    margin: 0;
 	height: 100%;
     background-image: url("old_wall.png");
 }
 
 h1 { 
 	font-size: 30px; font-family: 'Georgia', Times, Times New Roman, serif;
-color: #ffffff; 
+color: #ffffff;
 }
 
 h2 { 
-	font-size: 20px; font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px; font-family: 'Georgia', Times, Times New Roman, serif;
 color: #4aaaa5; 
 }
 
 h3 { 
-	font-size: 15px; font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px; font-family: 'Georgia', Times, Times New Roman, serif;
 color: #4aaaa5; 
 }
 
@@ -57,17 +59,19 @@ p {
 .container {
 	float: left;
 	width: 100%;
-	margin-top: 40px;
+	margin-top: 10px;
 }
 
 .page-title {
 font-weight: 100;
 background-color: #4aaaa5;
-padding: 5px 10px;
 border: 25px solid #4aaaa5;
 float: left;
+height: 20px;
 margin-left: 145px;
+padding: 10px 10px;
 margin-top: 0px;
+text-align: justify;
 }
 
 #about-me {
@@ -98,23 +102,25 @@ border-color: #cccccc;
 margin-bottom: 40px;
 margin-right: 155px;
 padding-top: 10px;
-padding-bottom: 60px;
+padding-bottom: 70px;
 }
 
 #header {
+	width: 100%;
+	height:	90px;
 	background-color: #ffffff;
-	padding: 10px;
 	border-bottom-style: solid;
 	border-color: #cccccc;
 }
 
 #footer {
+	width: 100%;
+	height: 80px;
 	font-size: 0.75rem;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #cccccc;
 	text-align: center;
 	background-color: #666666;
-  	padding: 10px;
   	clear: both;
   	border-top-style: solid;
   	border-color: #4aaaa5
