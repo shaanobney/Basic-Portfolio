@@ -1,19 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Contact Information</title>
+	<title>Contact Me</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
 </head>
+
+
 <body>
-<form>
-	Name<br>
-	<input type="text" name="Name">
-	<br>
-	Email<br>
-	<input type="text" name="Email">
-	<br>
-	Message<br>
-	<input type="text" name="Message">
-	<br>
-	</form>
+	<div id="header">
+	   <h1 class="page-title">Shaan Obney</h1>
+        <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="index.html">About</a></li>
+        </ul>
+
+    </div>
+
+	<div class="container">
+
+		<div id="about-me">
+    		<h2>Contact</h2>
+    		<hr noshade>
+    	
+    	<form id="contact_form" action="#" method="POST" enctype="multipart/form-data" style="margin: 25px 30px 25px 30px">
+			<div class="row">
+			<label for="name">Name</label><br/>
+			<input id="name" class="input" name="name" type="text" value="" size="96" /><br/>
+		</div>
+	
+		<div class="row">
+			<label for="email">Email</label><br/>
+			<input id="email" class="input" name="email" type="text" value="" size="96" /><br/>
+		</div>
+	
+		<div class="row">
+			<label for="message">Message</label><br/>
+			<textarea id="message" class="input" name="message" rows="14" cols="94"></textarea><br/>
+		</div>
+	
+		<input id="submit_button" type="submit" value="Submit"/>
+		
+		</form>
+
+	</div>
+
+	<div id="connect">
+    	<h3>Connect with Me</h3>
+    	<hr noshade>
+        <img src="assets/images/github.png" style="margin: 15px 2px 25px 2px">
+        <img src="assets/images/linkedin.png" style="margin: 15px 2px 25px 2px">
+	   <img src="assets/images/overflow.png" style="margin: 15px 2px 25px 2px">
+	</div>
+
+	</div>
+
+	<div id="footer">
+		<p>&copy; Copyright 2016 Shaan Obney</p>
+	</div>
+
+
 </body>
+
 </html>
