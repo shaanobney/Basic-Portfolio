@@ -77,7 +77,7 @@ li a {
 	margin-left: 30px;
 }
 
-.hover-rotate:hover {
+.hover-rotate: hover {
 	-ms-transform: rotate(-10deg);
 	-webkit-transform: rotate(-10deg);
 	-moz-transform: rotate(-10deg);
