@@ -48,6 +48,11 @@ p {
 	line-height: 200%;
 }
 
+textarea {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
 	/* NAVIGATION BAR HERE */
 
 ul {
@@ -88,6 +93,11 @@ li a {
 	justify-content: center;
 	align-items: center;
 }
+
+.labels {
+	margin-bottom: 15px;
+}
+
 
 .overlay {
 	position: absolute;
@@ -156,7 +166,9 @@ li a {
 }
 
 .input {
-	height: 25px;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 5px;
 }
 
 .page-title {
