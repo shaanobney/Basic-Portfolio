@@ -1,51 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
 </head>
 
 <body>
-	<div id="header"> 
-		<h1 class="page-title">Shaan Obney</h1>
+    <div id="header"> 
+        <h1 class="page-title">Shaan Obney</h1>
            <div id="nav-bar">
-            	<ul>
-                	<li><a href="contact.html">Contact</a></li>
-                	<li><a href="portfolio.html">Portfolio</a></li>
-                	<li><a href="index.html">About</a></li>
-            	</ul>
-        	</div>
-	</div>
+            <ul>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="spacer">|</li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li class="spacer">|</li>
+                <li><a href="index.html">About</a></li>
+            </ul>
+        </div>
+    </div>
 
-	<div class="portcontainer">
-		<div id="portfolio">
-    		<h2>Portfolio</h2>
-    		<hr noshade>
-    		<img src="assets/images/1.jpg" align="left" style="margin: 30px 10px 15px 30px" height="205" width="275">
-    		<p id="overlay1">Hangman</p>
-    		<img src="assets/images/2.jpg" align="right" style="margin: 30px 30px 15px 20px" height="205" width="275">
-    		<p id="overlay2">RPG Game</p>
-    		<img src="assets/images/3.jpg" align="left" style="margin: 30px 10px 15px 30px" height="205" width="275">
-    		<p id="overlay3">Trivia Game</p>
-    		<img src="assets/images/4.jpg" align="right" style="margin: 30px 30px 15px 20px" height="205" width="275">
-    		<p id="overlay4">Rutgers Info Widget</p>
-    		<img src="assets/images/5.jpg" align="left" style="margin: 30px 10px 15px 30px" height="205" width="275">
-    		<p id="overlay5">Rock Papers Scissors</p>
-		</div>
+    <div class="portcontainer">
+        <div id="portfolio" class="box">
+            <h2>Portfolio</h2>
+            <img class="folio-img" src="assets/images/1.jpg">
+            <p id="overlay1">Hangman</p>
+            <img class="folio-img" src="assets/images/2.jpg" align="right">
+            <p id="overlay2">RPG Game</p>
+            <img class="folio-img" src="assets/images/3.jpg" align="left">
+            <p id="overlay3">Trivia Game</p>
+            <img class="folio-img" src="assets/images/4.jpg" align="right">
+            <p id="overlay4">Rutgers Info Widget</p>
+            <img class="folio-img" src="assets/images/5.jpg" align="left">
+            <p id="overlay5">Rock Papers Scissors</p>
+        </div>
 
-		<div id="connect">
-    		<h3 style="margin-right: 40px">Connect with Me</h3>
-    		<hr noshade>
-        	<img src="assets/images/github.png" style="margin: 15px 3px 25px 2px" height="62" width="62">
-        	<img src="assets/images/linkedin.png" style="margin: 15px 3px 25px 3px" height="62" width="62">
-			<img src="assets/images/overflow.png" style="margin: 15px 2px 25px 3px" height="62" width="62">
-		</div>
-	</div>
+        <div id="connect" class="box">
+            <h3>Connect with Me</h3>
+            <a href="https://github.com/shaanobney">
+                <img class="hover-rotate conn-img" src="assets/images/github.png" target="_blank">
+            </a>
+            <a href="https://www.linkedin.com/in/shaan-obney-14b7b6120">
+                <img class="hover-rotate conn-img" src="assets/images/linkedin.png" target="_blank">
+            </a>
+            <a href="http://stackexchange.com/users/8715146/shaan-obney" target="_blank">
+                <img class="hover-rotate conn-img" src="assets/images/overflow.png">
+            </a>
+        </div>
+    </div>
 
-	<div id="footer">
-		<p>&copy; Copyright 2016 Shaan Obney</p>
-	</div>
-
-
-</body>
-</html>
+    <div id="footer">
+        <p>&copy; Copyright 2016 Shaan Obney</p>
+    </div>
